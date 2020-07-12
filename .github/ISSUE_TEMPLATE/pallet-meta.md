@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-[ ] Rough Design/Description
-[ ] Implementation Braindump
-[ ] Informal Spec
-[ ] Tests-as-Spec
-[ ] Implementation
-[ ] Benchmarks
-[ ] WeightInfo
-[ ] Add Pallet to Meta Issue #1
+ [ ] Rough Design/Description
+ [ ] Implementation Braindump
+ [ ] Informal Spec
+ [ ] Tests-as-Spec
+ [ ] Implementation
+ [ ] Benchmarks
+ [ ] WeightInfo
+ [ ] Add Pallet to Meta Issue #1
