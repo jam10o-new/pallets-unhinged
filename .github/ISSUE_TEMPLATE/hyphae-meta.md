@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-[ ] Add to Metaissue #2
+ [ ] Add to Metaissue #2
