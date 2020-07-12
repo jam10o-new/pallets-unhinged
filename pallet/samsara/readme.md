@@ -4,13 +4,13 @@ The goal of `pallet-samara` is to provide an alternative to `Currency`/token bas
 
 ## Terminology
 
-Provide: Increase the supply of something over a period of time.
-Providable: A thing that can be `Provide`d.
-Desire: "Wish For" something to have it's supply increased (ie, your balance of some arbitrary token), and assign a relative value to it.
-Desirable: A thing that can be `Desire`d.
-Karma: A non-transferrable token that incentivises inactivity. 
-Long Count: The period of time in which `samara` recalculates what qualifies as valuable.
-Short Count: The period of time in which `samara` distributes value.
+- Provide: Increase the supply of something over a period of time.
+- Providable: A thing that can be `Provide`d.
+- Desire: "Wish For" something to have it's supply increased (ie, your balance of some arbitrary token), and assign a relative value to it.
+- Desirable: A thing that can be `Desire`d.
+- Karma: A non-transferrable token that incentivises inactivity. 
+- Long Count: The period of time in which `samara` recalculates what qualifies as valuable.
+- Short Count: The period of time in which `samara` distributes value.
 
 
 ## Design 
