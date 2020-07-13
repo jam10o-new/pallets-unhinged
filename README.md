@@ -1,5 +1,7 @@
 # pallets-unhinged
-substrate.io pallets I make when I'm bored, may include useful crazy things, useless crazy things, and fun non-crazy things.
+substrate.io related things I (will) make when I'm bored, may include useful crazy things, useless crazy things, and fun non-crazy things.
+
+See the [Pallets](https://github.com/joshua-mir/pallets-unhinged/issues/1), [Components](https://github.com/joshua-mir/pallets-unhinged/issues/2), or [Tools and Binaries](https://github.com/joshua-mir/pallets-unhinged/issues/3)
 
 # Recommended contribution style:
 * Please create an issue for any components you create
