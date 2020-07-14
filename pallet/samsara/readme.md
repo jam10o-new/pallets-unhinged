@@ -9,8 +9,8 @@ The goal of `pallet-samara` is to provide an alternative to `Currency`/token bas
 - Desire: "Wish For" something to have it's supply increased (ie, your balance of some arbitrary token), and assign a relative value to it.
 - Desirable: A thing that can be `Desire`d.
 - Karma: A non-transferrable token that incentivises inactivity. 
-- Long Count: The period of time in which `samara` recalculates what qualifies as valuable.
-- Short Count: The period of time in which `samara` distributes value.
+- Long Count: The period of time/number of short-counts in which `samara` recalculates what qualifies as valuable.
+- Short Count: The period of time/activity in which `samara` distributes value.
 
 
 ## Design 
