@@ -4,9 +4,9 @@ Ratio aims to be a drop-in replacement wherever a `Currency` is used, with the g
 
 Users have two balances and a ratio, where ratio is defined as the ratio between a Positive Balance and a Negative Balance.
 
-Transfers can either: 
-    * reduce the Positive Balance of the sender, down to a minimum of their total negative balance, and reduce the Negative Balance of the receiver. (improve total ratio, decrease liquidity)
-    * increase the Negative Balance of the sender, up to a max of their positive value, and increase the Positive Balance of the receiver. (worsen total ratio, increase liquidity)
+Transfers can either:
+ * reduce the Positive Balance of the sender, down to a minimum of their total negative balance, and reduce the Negative Balance of the receiver. (improve total ratio, decrease liquidity)
+ * increase the Negative Balance of the sender, up to a max of their positive value, and increase the Positive Balance of the receiver. (worsen total ratio, increase liquidity)
 
 Users can also "reduce the stubbornness" of their ratio by reducing both of their Balances by an equal factor to maintain the same ratio. (reduce liquidity, maintain personal ratio, total ratio moves towards current personal ratio)
 
