@@ -1,6 +1,6 @@
-# samara
+# samsara
 
-The goal of `pallet-samara` is to provide an alternative to `Currency`/token based economics, and the `Weight` system of FRAME, while providing a low-configuration/drop-in replacement for anywhere a substrate `Currency` is expected.
+The goal of `pallet-samsara` is to provide an alternative to `Currency`/token based economics, and the `Weight` system of FRAME, while providing a low-configuration/drop-in replacement for anywhere a substrate `Currency` is expected.
 
 ## Terminology
 
@@ -9,15 +9,15 @@ The goal of `pallet-samara` is to provide an alternative to `Currency`/token bas
 - Desire: "Wish For" something to have it's supply increased (ie, your balance of some arbitrary token), and assign a relative value to it.
 - Desirable: A thing that can be `Desire`d.
 - Karma: A non-transferrable token that incentivises inactivity. 
-- Long Count: The period of time/number of short-counts in which `samara` recalculates what qualifies as valuable.
-- Short Count: The period of time/activity in which `samara` distributes value.
+- Long Count: The period of time/number of short-counts in which `samsara` recalculates what qualifies as valuable.
+- Short Count: The period of time/activity in which `samsara` distributes value.
 
 
 ## Design 
 
-The core of `samara` lies in the concept of maximizing "marginal perceived value" where all participants in an economy operate as much/as little as they wish to `provide` to the economy, and declare values for things they wish to be `provided`. Every Short Count, `samara` matches "production" to "desire" in a way that maximizes the total value all participants believe has been `provided` to them. Things can be `provided` immediately and then have their value tallied at the end of the Short Count (suboptimal) or things Providers mark as `providable` can be allocated via the distribution mechanism of `samara` at the end of the Short Count.
+The core of `samsara` lies in the concept of maximizing "marginal perceived value" where all participants in an economy operate as much/as little as they wish to `provide` to the economy, and declare values for things they wish to be `provided`. Every Short Count, `samsara` matches "production" to "desire" in a way that maximizes the total value all participants believe has been `provided` to them. Things can be `provided` immediately and then have their value tallied at the end of the Short Count (suboptimal) or things Providers mark as `providable` can be allocated via the distribution mechanism of `samsara` at the end of the Short Count.
 
-Game theoretically, `samara` if designed naively, incentivises activity over inactivity (whoever plays the "paperclip game" and "trades up" most often, ends up having the most  value), so the system itself is intentionally "samarad" in two ways to avoid that:
+Game theoretically, `samsara` if designed naively, incentivises activity over inactivity (whoever plays the "paperclip game" and "trades up" most often, ends up having the most  value), so the system itself is intentionally "samsarad" in two ways to avoid that:
 * If undeclared, all participants wish "Karma" is provided to them by default, which is a non-transferrable token - outside of being `provided` between participants - which cannot be partially provided, and "compounds" if received while already held. The purpose of "Karma" is to incentivise inaction (as opposed to other antispam mechanisms which impose a cost on action). 
 * Anything that has been designated value by any pariticipant at any point over the current Long Count, but has not been "desired" by any participant within this Short Count is distributed to Karma holders based on their current holding of Karma.
 
