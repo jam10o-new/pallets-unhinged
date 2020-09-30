@@ -1,6 +1,6 @@
 # ratio
 
-Ratio aims to be a drop-in replacement wherever a `Currency` is used, with the goal of, when used in conjunction with mechanisms to earn value doing positive work, creating economies with built in long-term reputational systems and non-exploitative/voluntary value sinks.
+Ratio aims to be a drop-in replacement wherever a `Currency` is used, with the goal of storing raw information about value provided and consumed, without making and decisions about how to act upon that information (this logic is delegated to other pallets).
 
 Users have two balances and a ratio, where ratio is defined as the ratio between a Positive Balance and a Negative Balance.
 
